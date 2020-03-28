@@ -6,8 +6,6 @@ target 'Smack' do
   use_frameworks!
 
   # Pods for Smack
-pod 'Alamofire'
-  pod 'SwiftyJSON'
-  pod 'Socket.IO-Client-Swift'
+
 
 end
