@@ -14,6 +14,7 @@
 		1B3D599F242311ED003847C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3D599D242311ED003847C7 /* LaunchScreen.storyboard */; };
 		1B7E1B5B242979C9007F52B8 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E1B5A242979C9007F52B8 /* AuthService.swift */; };
 		1BAAC8AE242FEC93006501DD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAC8AD242FEC93006501DD /* RoundedButton.swift */; };
+		1BAAC8B024301087006501DD /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAC8AF24301087006501DD /* UserDataService.swift */; };
 		1BC784B82424590A00DB30A6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC784B72424590A00DB30A6 /* SWRevealViewController.m */; };
 		1BC784BD24245C9200DB30A6 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC784BC24245C9200DB30A6 /* ChatVC.swift */; };
 		1BC784BF24245CA200DB30A6 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC784BE24245CA200DB30A6 /* ChannelVC.swift */; };
@@ -33,6 +34,7 @@
 		1B3D59A0242311ED003847C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7E1B5A242979C9007F52B8 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		1BAAC8AD242FEC93006501DD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1BAAC8AF24301087006501DD /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		1BC784B52424590900DB30A6 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BC784B62424590A00DB30A6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		1BC784B72424590A00DB30A6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7E1B5A242979C9007F52B8 /* AuthService.swift */,
+				1BAAC8AF24301087006501DD /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				1BC784C12426B07D00DB30A6 /* GradientView.swift in Sources */,
 				1B3D5995242311EA003847C7 /* SceneDelegate.swift in Sources */,
 				1BC784C82426D03700DB30A6 /* CreateAccountVC.swift in Sources */,
+				1BAAC8B024301087006501DD /* UserDataService.swift in Sources */,
 				1BAAC8AE242FEC93006501DD /* RoundedButton.swift in Sources */,
 				1BC784C42426BEAA00DB30A6 /* Constants.swift in Sources */,
 				1B7E1B5B242979C9007F52B8 /* AuthService.swift in Sources */,

@@ -15,6 +15,11 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var userImage: UIImageView!
+    
+    //MARK: - Variables
+    
+    var avatarName = "profileDefault"
+    var avatarColor = "[0.5, 0.5, 0.5, 1]"
   
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +28,7 @@ class CreateAccountVC: UIViewController {
     
   
 //    @IBAction func createAccountButton(_ sender: Any) {
+//        guard let name = usernameTextField.text , usernameTextField.text != "" else { return }
 //        guard let email = emailTextField.text , emailTextField.text != "" else { return }
 //        guard let pass = passwordTextField.text , passwordTextField.text != "" else { return }
 //

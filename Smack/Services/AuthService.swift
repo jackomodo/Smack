@@ -23,7 +23,7 @@ class AuthService {
         }
     }
 
-    var authToke: String {
+    var authToken: String {
         get {
             return defaults.value(forKey: TOKEN_KEY) as! String
         }
@@ -51,7 +51,7 @@ class AuthService {
         ]
         
 //        ALAMOFIRE REQUEST
-        
+//        JSON STUFF TOO
 
     }
 
@@ -68,6 +68,24 @@ class AuthService {
         
     }
 
+    func createUser(name: String, email: String, avatarName: String, avatarColor: String, completion: @escaping CompletionHandler) {
+        
+        let lowerCaseEmail = email.lowercased()
+        
+        let body: [String: Any] = [
+            "name": name,
+            "email": lowerCaseEmail,
+            "avatarName": avatarName,
+            "avatarColor": avatarColor
+        ]
+        
+        let header = [
+            "Authorization":"Bearer \(AuthService.instance.authToken)"
+            "Content-Type": "application/json; charset=utf-8"
+        ]
+        
+//        ALAMOFIRE REQUEST AGAIN
+    }
 
 
 
